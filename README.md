@@ -7,28 +7,28 @@ Wordpress project s vlastnou témou Choco
 
 1) Frontpage - magnet (hneď po načítaní stránky)
 
-![Frontpage-magnet!](images/choco-fp1.png)
+![Frontpage-magnet!](images_github/choco-fp1.png)
 
 2) Frontpage - section
 
-![Section!](images/choco-fp2.png)
+![Section!](images_github/choco-fp2.png)
 
 3) Frontpage - posledné 3 články, farba pozadia stránky, výzor blogu 
 
-![Blog!](images/choco-fp3.png)
+![Blog!](images_github/choco-fp3.png)
 
 4) Frontpage - sekcia značky, tie vygenerovalo BlueWillow (AI)
 
-![Brands!](images/choco-fp4.png)
+![Brands!](images_github/choco-fp4.png)
 
 5) Stránka Čokoládovňa 1
 
-![Cokoladovna!](images/cokoladovna1.png)
+![Cokoladovna!](images_github/cokoladovna1.png)
 
 6) Stránka Čokoládovňa 2 - šéfkuchár
 
-![chef!](images/cokoladovna2.png)
+![chef!](images_github/cokoladovna2.png)
 
 7) Stránka Kalendár akcií
 
-![calendar!](images/kalendar.png)
+![calendar!](images_github/kalendar.png)
