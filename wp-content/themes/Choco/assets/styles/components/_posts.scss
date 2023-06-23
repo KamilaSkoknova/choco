@@ -1,0 +1,24 @@
+.articles {
+    min-height: 90vh;
+}
+
+article {
+    img {
+        padding: 15px 0;
+    }
+}
+
+.post-img {
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .post-img {
+        overflow: unset;
+    }
+}

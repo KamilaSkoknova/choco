@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/*
+Theme Name: Choco
+Author: Kamila Skokňová
+Author URI: https://github.com/KamilaSkoknova?tab=repositories
+Version: 1.0.0
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum scelerisque nisi, non imperdiet tortor volutpat a. Morbi vestibulum, augue vel ultricies viverra, nulla lacus tempus felis, vel varius ex nisi sit amet lectus. Suspendisse at massa velit. Nunc eu molestie risus. Vestibulum nisl felis, ullamcorper in orci ac, rhoncus mattis ante. Morbi et consequat mauris, in cursus leo. Phasellus gravida elit in justo pretium finibus. Proin pellentesque mauris risus, a sodales mi venenatis a. Nullam suscipit ipsum in odio posuere, consectetur eleifend ipsum tempor. Curabitur eget nisl ullamcorper, tempus enim vel, commodo odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae arcu malesuada, tincidunt sem et, efficitur diam.
+
+Nunc vitae libero a nisi pretium congue id vitae libero. Vivamus dictum velit sit amet nisi finibus posuere. Nullam auctor mollis leo vel consectetur. Etiam non quam vel tellus maximus molestie. Integer eu felis porta, suscipit lacus et, congue risus. Nulla tempus orci eget mauris fringilla, quis semper urna egestas. Nam facilisis, sapien ut porttitor tincidunt, nibh mauris imperdiet risus, vel elementum diam turpis at libero. Phasellus nunc tortor, hendrerit in elit quis, mattis sodales arcu. Morbi pretium vulputate sem, in venenatis quam tempus vitae.
+
+*/
+.footer {
+  background-color: black;
+}
+.footer p {
+  color: white;
+}
+.footer p a {
+  text-decoration: none;
+  color: #f3e5ab;
+}
+
+.contact-box {
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 30px 20px 0;
+}
+
+.magnet {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../../uploads/2023/06/desserts-1868181_1280-1-1024x682.jpg") fixed top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+}
+.magnet__header {
+  color: #f3e5ab;
+  font-size: 3.5rem;
+}
+.magnet__header--span {
+  color: bisque;
+}
+
+.counts {
+  background-color: black;
+  border-bottom: 1px solid #f3e5ab;
+}
+.counts h3, .counts p {
+  color: white;
+  text-align: center;
+}
+.counts h3 {
+  color: #f3e5ab;
+}
+
+.fp-section {
+  min-height: 100vh;
+}
+
+.chocobar {
+  padding: 50px 20px 50px 10px;
+  background: linear-gradient(black, rgb(13, 13, 13), black);
+}
+.chocobar__img {
+  padding-top: 15vh;
+}
+.chocobar__img img {
+  width: 70%;
+  border-radius: 3px;
+  margin-left: 15%;
+}
+.chocobar__text {
+  padding-top: 23vh;
+}
+.chocobar__text--header {
+  color: #f3e5ab;
+}
+.chocobar__text p {
+  color: white;
+}
+
+.chocoeshop {
+  padding: 50px 10px 50px 20px;
+  background: linear-gradient(black, #281300, black);
+}
+.chocoeshop__img {
+  padding-top: 15vh;
+}
+.chocoeshop__img img {
+  width: 70%;
+  border-radius: 3px;
+  margin-left: 15%;
+}
+.chocoeshop__text {
+  padding-top: 23vh;
+}
+.chocoeshop__text p {
+  color: white;
+}
+.chocoeshop__text--header {
+  color: #f3e5ab;
+}
+
+.fp-blog {
+  padding: 90px 0;
+}
+.fp-blog .post-title a {
+  color: #281300;
+  text-decoration: none;
+}
+.fp-blog .post-title a:hover {
+  text-decoration: underline;
+}
+.fp-blog p {
+  color: black;
+}
+
+.fp-brands {
+  padding: 90px 0;
+  background-color: #281300;
+}
+.fp-brands__header {
+  color: #f3e5ab;
+}
+.fp-brands__brand {
+  margin-bottom: 25px;
+}
+.fp-brands__brand img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.navbar-brand {
+  color: #f3e5ab;
+  font-size: 2.3em;
+}
+
+.navbar-nav .nav-item a {
+  color: #f3e5ab;
+  text-decoration: none;
+}
+.navbar-nav .nav-item a:hover {
+  color: white;
+}
+
+.social-icons .bi {
+  color: white;
+  font-size: 25px;
+}
+.social-icons .bi:hover {
+  color: #f3e5ab;
+}
+
+.articles {
+  min-height: 90vh;
+}
+
+article img {
+  padding: 15px 0;
+}
+
+.post-img {
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Courgette", cursive;
+}
+
+p {
+  font-size: 19px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #281300;
+  font-weight: 600;
+}
+
+.post {
+  padding-bottom: 20px;
+}
+
+.whole-height {
+  padding-top: 110px;
+  height: 90vh;
+}
+
+.padding-general {
+  padding: 100px 0;
+}
+
+pre {
+  color: #281300;
+  font-family: "Courgette", cursive;
+  font-size: 18px;
+}
+
+.button-light {
+  background-color: #f3e5ab;
+  color: #281300;
+}
+.button-light:hover {
+  background-color: white;
+  font-weight: 400;
+}
+
+.button-dark {
+  background-color: black;
+  color: #f3e5ab;
+}
+.button-dark:hover {
+  background-color: #281300;
+  font-weight: 400;
+}
+
+.wpcf7-form {
+  text-align: center;
+}
+
+.wpcf7-form-control,
+.wpcf7-textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  justify-content: center;
+}
+
+.wpcf7-submit {
+  width: 33%;
+  margin-left: 33%;
+  margin-top: 20px;
+  background-color: #281300;
+  color: #f3e5ab;
+}
+.wpcf7-submit:hover {
+  background-color: black;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f3e5ab;
+}/*# sourceMappingURL=style.css.map */

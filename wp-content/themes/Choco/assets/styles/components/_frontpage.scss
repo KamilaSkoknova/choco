@@ -1,0 +1,129 @@
+.magnet {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../../uploads/2023/06/desserts-1868181_1280-1-1024x682.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+
+    &__header {
+        color: $vanilla;
+        font-size: 3.5rem;
+
+        &--span {
+            color: bisque;
+        }
+    }
+}
+
+.counts {
+    background-color: $black;
+    border-bottom: 1px solid $vanilla;
+
+    h3, p {
+        color: $white;
+        text-align: center;
+    }
+
+    h3 {
+        color: $vanilla;
+    }
+}
+
+.fp-section {
+    min-height: 100vh;
+}
+
+.chocobar {
+    padding: 50px 20px 50px 10px;
+    background: linear-gradient($black, $dark-gray, $black);
+
+    &__img {
+        padding-top: 15vh;
+
+        img {
+            width: 70%;
+            border-radius: 3px;
+            margin-left: 15%;
+        }
+    }
+
+    &__text {
+        padding-top: 23vh;
+
+        &--header {
+            color: $vanilla;
+        }
+
+        p {
+            color: $white;
+        }
+    }
+}
+
+.chocoeshop {
+    padding: 50px 10px 50px 20px;
+    background: linear-gradient($black, $choco, $black);
+
+    &__img {
+        padding-top: 15vh;
+
+        img {
+            width: 70%;
+            border-radius: 3px;
+            margin-left: 15%;
+        }
+    }
+
+    &__text {
+        padding-top: 23vh;
+
+        p {
+            color: $white;
+        }
+
+        &--header {
+            color: $vanilla;
+        }
+    }
+}
+
+.fp-blog {
+    padding: 90px 0;
+
+    .post-title {
+        a {
+            color: $choco;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        color: $black;
+    }
+}
+
+.fp-brands {
+    padding: 90px 0;
+    background-color: $choco;
+
+    &__header {
+        color: $vanilla;
+    }
+
+    &__brand {
+        margin-bottom: 25px ;
+        
+        img {
+            width: 80%;
+            margin-left: 10%;
+        }
+    }
+}

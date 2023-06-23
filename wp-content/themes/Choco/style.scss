@@ -1,0 +1,24 @@
+/*
+Theme Name: Choco
+Author: Kamila Skokňová
+Author URI: https://github.com/KamilaSkoknova?tab=repositories
+Version: 1.0.0
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum scelerisque nisi, non imperdiet tortor volutpat a. Morbi vestibulum, augue vel ultricies viverra, nulla lacus tempus felis, vel varius ex nisi sit amet lectus. Suspendisse at massa velit. Nunc eu molestie risus. Vestibulum nisl felis, ullamcorper in orci ac, rhoncus mattis ante. Morbi et consequat mauris, in cursus leo. Phasellus gravida elit in justo pretium finibus. Proin pellentesque mauris risus, a sodales mi venenatis a. Nullam suscipit ipsum in odio posuere, consectetur eleifend ipsum tempor. Curabitur eget nisl ullamcorper, tempus enim vel, commodo odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae arcu malesuada, tincidunt sem et, efficitur diam.
+
+Nunc vitae libero a nisi pretium congue id vitae libero. Vivamus dictum velit sit amet nisi finibus posuere. Nullam auctor mollis leo vel consectetur. Etiam non quam vel tellus maximus molestie. Integer eu felis porta, suscipit lacus et, congue risus. Nulla tempus orci eget mauris fringilla, quis semper urna egestas. Nam facilisis, sapien ut porttitor tincidunt, nibh mauris imperdiet risus, vel elementum diam turpis at libero. Phasellus nunc tortor, hendrerit in elit quis, mattis sodales arcu. Morbi pretium vulputate sem, in venenatis quam tempus vitae.
+
+*/
+
+@import 'assets/styles/variables';
+@import 'assets/styles/components/footer';
+@import 'assets/styles/components/forms';
+@import 'assets/styles/components/frontpage';
+@import 'assets/styles/components/navbar';
+@import 'assets/styles/components/posts';
+@import 'assets/styles/components/text';
+@import 'assets/styles/components/utilitise';
+@import 'assets/styles/components/wordpress';
+
+body {
+    background-color: $vanilla;
+}
