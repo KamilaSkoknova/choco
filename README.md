@@ -3,6 +3,8 @@ Wordpress project s vlastnou témou Choco
 - v súboru db je exportovaný súbor pre rozbehanie
 - web je nastavený na lokálnu doménu choco.local
 
+Eshop vo WooCommerce ešte v procese
+
 #Images of website
 
 1) Frontpage - magnet (hneď po načítaní stránky)
